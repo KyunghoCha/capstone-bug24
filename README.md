@@ -23,7 +23,8 @@ AI 기반 위험 요소 감지 및 알림
 
 관리자 대시보드 (React)
 
-🛠 기술 스택  //수정 필요 자신이 사용하는것 관리 후 필요하면 git ignore까지 수정!!
+🛠 기술 스택  //수정 필요: 자기꺼 관리, git ignore까지 수정!!
+
 Frontend: 
     React, JavaScript, Chart / Dashboard UI
 
