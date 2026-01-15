@@ -23,36 +23,15 @@ AI 기반 위험 요소 감지 및 알림
 
 관리자 대시보드 (React)
 
-🛠 기술 스택
-Frontend
+🛠 기술 스택  //수정 필요 자신이 사용하는것 관리 후 필요하면 git ignore까지 수정!!
+Frontend: 
+    React, JavaScript, Chart / Dashboard UI
 
-React
+Backend: 
+    Node.js, Supabase, (PostgreSQL), REST API
 
-JavaScript
-
-Chart / Dashboard UI
-
-Backend
-
-Node.js
-
-Supabase (PostgreSQL)
-
-REST API
-
-AI
-
-Python
-
-TensorFlow
-
-YOLO
-
-PyTorch
-
-Database
-
-PostgreSQL (Supabase)
+AI: 
+    Python, TensorFlow, YOLO, PyTorch, Database, PostgreSQL (Supabase)
 
 🧱 시스템 아키텍처
 [ Sensors ] ─┐
@@ -67,7 +46,8 @@ PostgreSQL (Supabase)
 Frontend	React UI / Dashboard
 Backend A	DB 설계 / Supabase 관리
 Backend B	API / AI 연동 / 영상
-AI	모델 개발 및 위험 분석
+AI	        모델 개발 및 위험 분석
+Iot         IoT 기기 센서 정보 관리
 
 📌 AI 담당자는 DB 및 프론트에 직접 접근하지 않음
 
@@ -89,7 +69,7 @@ Service Role Key는 백엔드에서만 사용
 
 프론트엔드는 anon key만 사용
 
-🚀 실행 방법 (예시)
+🚀 실행 방법 (예시) //수정필요
 Frontend
 cd frontend
 npm install
@@ -100,15 +80,6 @@ cd backend
 npm install
 npm run dev
 
-📅 개발 일정
-
-1주차: 기획 및 설계
-
-2주차: DB 및 API 구축
-
-3주차: AI 연동
-
-4주차: 통합 및 테스트
 
 📎 참고 자료
 
@@ -118,10 +89,14 @@ React Docs
 
 TensorFlow / PyTorch
 
-✅ 여기까지 하면?
+git commit 할 때 메세지 규칙:
 
-프로젝트 신뢰도 +10
-
-교수님 질문 50% 차단
-
-팀원들 방향 통일
+타입	     언제 쓰나
+feat	    새로운 기능 추가
+fix	        버그 수정
+chore	    설정, 빌드, 패키지
+docs	    문서 수정 (README 등)
+refactor	리팩토링 (기능 변화 없음)
+style	    코드 스타일 (세미콜론, 공백)
+test	    테스트 코드
+remove	    파일/기능 삭제
