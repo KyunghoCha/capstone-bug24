@@ -54,3 +54,7 @@ supabase/.temp/
 .vscode/
 .idea/
 *.swp
+
+safety-cctv-ai/tests
+safety-cctv-ai/data
+safety-cctv-ai/outputs

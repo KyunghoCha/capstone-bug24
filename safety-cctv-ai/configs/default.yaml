@@ -1,0 +1,13 @@
+source:
+  type: file           # file | rtsp
+  path: data/samples/2048246-hd_1920_1080_24fps.mp4
+  # rtsp_url: "rtsp://user:pw@ip:554/...."
+
+runtime:
+  fps_limit: 10
+  resize_width: 1280
+  display: true
+
+outputs:
+  snapshots_dir: outputs/snapshots
+  logs_dir: outputs/logs
