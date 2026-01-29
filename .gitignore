@@ -8,8 +8,8 @@ Thumbs.db
 # Environment variables
 ############################
 .env
-.env.*
-!.env.example
+ai/.env.example
+!ai/.env.example
 
 ############################
 # Node.js / React
